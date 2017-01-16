@@ -6,7 +6,4 @@ require "answers.php";
 $to=new orm("mysql:dbname=product;host=127.0.0.1","root","");
 $to->saveRes($ans);
 
-$tea=$to->getAns("tea");
-$coffee=$to->getAns("coffee");
-$refrain=$to->getAns("refrain");
 
